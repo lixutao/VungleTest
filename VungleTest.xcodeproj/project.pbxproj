@@ -15,6 +15,19 @@
 		EE36D4A9229E596400721525 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36D4A8229E596400721525 /* main.m */; };
 		EE36D4B3229E596400721525 /* VungleTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36D4B2229E596400721525 /* VungleTestTests.m */; };
 		EE36D4BE229E596400721525 /* VungleTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36D4BD229E596400721525 /* VungleTestUITests.m */; };
+		EE36D4D0229E5B7600721525 /* VungleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE36D4CF229E5B7600721525 /* VungleSDK.framework */; };
+		EE36D4D3229E5B9E00721525 /* ApplicationManage.m in Sources */ = {isa = PBXBuildFile; fileRef = EE36D4D2229E5B9E00721525 /* ApplicationManage.m */; };
+		EE36D4D6229E5BB500721525 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE36D4D5229E5BB500721525 /* AdSupport.framework */; };
+		EE36D4D8229E5BBE00721525 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE36D4D7229E5BBE00721525 /* AudioToolbox.framework */; };
+		EE36D4DA229E5BC700721525 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE36D4D9229E5BC700721525 /* AVFoundation.framework */; };
+		EE36D4DC229E5BD100721525 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE36D4DB229E5BD100721525 /* CFNetwork.framework */; };
+		EE36D4DE229E5BDA00721525 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE36D4DD229E5BDA00721525 /* CoreGraphics.framework */; };
+		EE36D4E0229E5BE300721525 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE36D4DF229E5BE300721525 /* CoreMedia.framework */; };
+		EE36D4E2229E5BED00721525 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = EE36D4E1229E5BED00721525 /* libz.tbd */; };
+		EE36D4E4229E5BF500721525 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE36D4E3229E5BF500721525 /* MediaPlayer.framework */; };
+		EE36D4E6229E5BFE00721525 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE36D4E5229E5BFE00721525 /* QuartzCore.framework */; };
+		EE36D4E8229E5C0700721525 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE36D4E7229E5C0600721525 /* StoreKit.framework */; };
+		EE36D4EA229E5C0E00721525 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE36D4E9229E5C0E00721525 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +64,20 @@
 		EE36D4B9229E596400721525 /* VungleTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VungleTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE36D4BD229E596400721525 /* VungleTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VungleTestUITests.m; sourceTree = "<group>"; };
 		EE36D4BF229E596400721525 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE36D4CF229E5B7600721525 /* VungleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = VungleSDK.framework; sourceTree = "<group>"; };
+		EE36D4D1229E5B9E00721525 /* ApplicationManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplicationManage.h; sourceTree = "<group>"; };
+		EE36D4D2229E5B9E00721525 /* ApplicationManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplicationManage.m; sourceTree = "<group>"; };
+		EE36D4D5229E5BB500721525 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		EE36D4D7229E5BBE00721525 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		EE36D4D9229E5BC700721525 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		EE36D4DB229E5BD100721525 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		EE36D4DD229E5BDA00721525 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		EE36D4DF229E5BE300721525 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		EE36D4E1229E5BED00721525 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		EE36D4E3229E5BF500721525 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		EE36D4E5229E5BFE00721525 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		EE36D4E7229E5C0600721525 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		EE36D4E9229E5C0E00721525 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +85,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE36D4EA229E5C0E00721525 /* SystemConfiguration.framework in Frameworks */,
+				EE36D4E8229E5C0700721525 /* StoreKit.framework in Frameworks */,
+				EE36D4E6229E5BFE00721525 /* QuartzCore.framework in Frameworks */,
+				EE36D4E4229E5BF500721525 /* MediaPlayer.framework in Frameworks */,
+				EE36D4E2229E5BED00721525 /* libz.tbd in Frameworks */,
+				EE36D4E0229E5BE300721525 /* CoreMedia.framework in Frameworks */,
+				EE36D4DE229E5BDA00721525 /* CoreGraphics.framework in Frameworks */,
+				EE36D4DC229E5BD100721525 /* CFNetwork.framework in Frameworks */,
+				EE36D4DA229E5BC700721525 /* AVFoundation.framework in Frameworks */,
+				EE36D4D8229E5BBE00721525 /* AudioToolbox.framework in Frameworks */,
+				EE36D4D6229E5BB500721525 /* AdSupport.framework in Frameworks */,
+				EE36D4D0229E5B7600721525 /* VungleSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +124,7 @@
 				EE36D4B1229E596400721525 /* VungleTestTests */,
 				EE36D4BC229E596400721525 /* VungleTestUITests */,
 				EE36D497229E596300721525 /* Products */,
+				EE36D4D4229E5BB500721525 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +141,13 @@
 		EE36D498229E596300721525 /* VungleTest */ = {
 			isa = PBXGroup;
 			children = (
+				EE36D4CF229E5B7600721525 /* VungleSDK.framework */,
 				EE36D499229E596300721525 /* AppDelegate.h */,
 				EE36D49A229E596300721525 /* AppDelegate.m */,
 				EE36D49C229E596300721525 /* ViewController.h */,
 				EE36D49D229E596300721525 /* ViewController.m */,
+				EE36D4D1229E5B9E00721525 /* ApplicationManage.h */,
+				EE36D4D2229E5B9E00721525 /* ApplicationManage.m */,
 				EE36D49F229E596300721525 /* Main.storyboard */,
 				EE36D4A2229E596400721525 /* Assets.xcassets */,
 				EE36D4A4229E596400721525 /* LaunchScreen.storyboard */,
@@ -130,6 +173,24 @@
 				EE36D4BF229E596400721525 /* Info.plist */,
 			);
 			path = VungleTestUITests;
+			sourceTree = "<group>";
+		};
+		EE36D4D4229E5BB500721525 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EE36D4E9229E5C0E00721525 /* SystemConfiguration.framework */,
+				EE36D4E7229E5C0600721525 /* StoreKit.framework */,
+				EE36D4E5229E5BFE00721525 /* QuartzCore.framework */,
+				EE36D4E3229E5BF500721525 /* MediaPlayer.framework */,
+				EE36D4E1229E5BED00721525 /* libz.tbd */,
+				EE36D4DF229E5BE300721525 /* CoreMedia.framework */,
+				EE36D4DD229E5BDA00721525 /* CoreGraphics.framework */,
+				EE36D4DB229E5BD100721525 /* CFNetwork.framework */,
+				EE36D4D9229E5BC700721525 /* AVFoundation.framework */,
+				EE36D4D7229E5BBE00721525 /* AudioToolbox.framework */,
+				EE36D4D5229E5BB500721525 /* AdSupport.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +326,7 @@
 				EE36D49E229E596300721525 /* ViewController.m in Sources */,
 				EE36D4A9229E596400721525 /* main.m in Sources */,
 				EE36D49B229E596300721525 /* AppDelegate.m in Sources */,
+				EE36D4D3229E5B9E00721525 /* ApplicationManage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,11 +499,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NLGH8L8MN5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VungleTest",
+				);
 				INFOPLIST_FILE = VungleTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vungletest.com.VungleTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,11 +521,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = NLGH8L8MN5;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/VungleTest",
+				);
 				INFOPLIST_FILE = VungleTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vungletest.com.VungleTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
