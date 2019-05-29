@@ -18,7 +18,7 @@
 @property(nonatomic, copy) void(^passInterstitialLoadSuccessBlock)(void);
 @property(nonatomic,strong)UIButton *playButton;
 @property(nonatomic,strong)UIButton *loadButton;
-
+@property(nonatomic,strong)UILabel *initlabel;
 @end
 
 @implementation ViewController
@@ -28,6 +28,11 @@
     
     self.sdk = [VungleSDK sharedSDK];
     self.sdk.delegate = self;
+    
+    self.initlabel = [[UILabel alloc]initWithFrame:CGRectMake(170, 280, 100, 100)];
+    [self.initlabel setText:@"初始化中。。。"];
+    [self.initlabel setTextColor:[UIColor redColor]];
+    [self.view addSubview:self.initlabel];
     
     // make customer view
     self.loadButton = [[UIButton alloc]init];
@@ -68,16 +73,12 @@
     [self.sdk loadPlacementWithID:PlACEMENTID error:nil];
 }
 
-//点击空白处也可加载视频
-- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event{
-    [self loadVideo];
-}
-
 #pragma VungleSDKDelegate
 //一旦初始化成功，以下回调会被调用：
 - (void)vungleSDKDidInitialize{
     NSLog(@"初始化成功");
     NSLog(@"%@",[NSThread currentThread]);
+    [self.initlabel setText:@"初始化成功"];
     self.loadButton.hidden = NO;
 }
 
@@ -95,13 +96,13 @@
             
         }
         
-//        NSLog(@"%@",[NSThread currentThread]);
-//        dispatch_async(dispatch_get_main_queue(), ^{
-//
-//        });
-        
-        self.playButton.hidden = NO;
-        
+        //        NSLog(@"%@",[NSThread currentThread]);
+        //        dispatch_async(dispatch_get_main_queue(), ^{
+        //
+        //        });
+        if(!self.loadButton.hidden){
+            self.playButton.hidden = NO;
+        }
         //        NSDictionary *options = @{VunglePlayAdOptionKeyOrientations: @(UIInterfaceOrientationMaskAll),
         //                                  VunglePlayAdOptionKeyUser: @"userGameID",
         //                                  VunglePlayAdOptionKeyIncentivizedAlertBodyText : @"If the video isn't completed you won't get your reward! Are you sure you want to close early?",
