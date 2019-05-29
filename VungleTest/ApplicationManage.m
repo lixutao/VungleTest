@@ -11,8 +11,8 @@
 @implementation ApplicationManage
 
 + (void)initVungleSDK{
-//    5cda9dc16f69b90011095665 5cee01d0a57f7f00182f1c02
-    NSString* appID = @"5cda9dc16f69b90011095665";
+//    58fe200484fbd5b9670000e3
+    NSString* appID = @"58fe200484fbd5b9670000e3";
     
     VungleSDK *sdk = [VungleSDK sharedSDK];
     // start vungle publisher library

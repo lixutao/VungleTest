@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import <VungleSDK/VungleSDK.h>
 
-#define PlACEMENTID @"51304-9969581"
+#define PlACEMENTID @"PLMT01-41570"
 
 @interface ViewController ()<VungleSDKDelegate>
 
